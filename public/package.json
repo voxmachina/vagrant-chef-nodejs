@@ -1,0 +1,14 @@
+{
+  "name": "Simplex",
+  "version": "1.0.0",
+  "description": "Simple node app example",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Pedro Eugenio",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.14.0"
+  }
+}
