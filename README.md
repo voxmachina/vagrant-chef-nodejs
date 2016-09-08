@@ -7,3 +7,17 @@ A boilerplate for Nodejs projects using Vagrant and Chef
 * [Vagrant](https://www.vagrantup.com/)
 * [librarian-chef](https://github.com/applicationsonline/librarian-chef)
 * Ruby version >= 2.1
+
+## Howto
+
+### Virtual machine
+    librarian-chef install --verbose
+    vagrant up
+
+### Nodejs app
+in the public/ folder is the actual Nodejs server example
+
+	vagrant ssh
+	cd /var/www/myapp/public
+	npm install
+	npm start
